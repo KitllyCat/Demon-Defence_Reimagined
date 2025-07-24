@@ -13,6 +13,13 @@ config_version=5
 config/name="Demon Defense Reimagined"
 config/features=PackedStringArray("4.4", "Mobile")
 
+[display]
+
+window/size/viewport_width=768
+window/size/viewport_height=512
+window/size/window_width_override=1280
+window/size/window_height_override=720
+
 [rendering]
 
 renderer/rendering_method="mobile"
