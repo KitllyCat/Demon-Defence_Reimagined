@@ -1,0 +1,31 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Carpeta de importaciones de Godot (reconstruible automáticamente)
+.import/
+
+# Archivos de importación generados
+*.import
+
+# Archivos temporales de Godot
+*.godot/tmp_*
+*.godot/converted_*
+
+# Datos de partidas, configuraciones temporales y autosaves
+*.cfg
+*.save
+*.tres.converted.*
+*.res.converted.*
+
+# Carpeta local para archivos guardados si la usas
+save/
+user://*
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuraciones del editor local (opcional)
+.editor_config
